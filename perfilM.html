@@ -1,0 +1,80 @@
+<html>
+<head>
+    <title>Dragorarios</title>
+</head>
+<link rel="stylesheet" href="css/css.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+
+    <header class="encabezado">
+        <div class="navegacion">
+
+            <a class="navegacion-logo" href="index.html">
+                <img class="logo_encabezado" src="img/logoo_blanco.png">
+            </a>
+
+            <nav class="navegacion-enlaces">
+                <a href="index.html" class="navegacion__enlace">Inicio</a>
+                <a href="mapa.html" class="navegacion__enlace">Horarios</a>
+                <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                <a href="perfil.html" class="navegacion__enlace">Perfil</a>
+
+            </nav>
+        </div>
+
+    </header>
+
+    <div class="perfil">
+        <div class="perfil_encabezado">
+          <img src="img/Perfil.JPG" alt="Foto de perfil" class="perfil_foto" />
+          <div>
+            <h2 class="perfil_nombre">Esteban Martinez</h2>
+            <p class="perfil_info">Administrador General</p>
+          </div>
+        </div>
+  
+    
+
+        <div class="perfil_seccion">
+          <h3>Avisos recientes</h3>
+          <p>- Clase de literatura 6M movida a las 11:30 AM</p>
+          <p>- Salón CC2 reservado para reunión institucional</p>
+      </div>
+
+      <div class="perfil_seccion">
+          <h3>Clases gestionadas</h3>
+          <p><strong>Calculo integral</strong> – Grupo 6M – Aula C17</p>
+          <p><strong>Literatura</strong> – Grupo 4B – Aula B3</p>
+      </div>
+
+      <div class="perfil_seccion">
+          <h3>Usuarios reportados</h3>
+          <p>- Alumno: <strong>Mario Hdz</strong> – Comentarios inapropiados</p>
+          <p>- Profesor: <strong>Luis Q.</strong> – Cambio de horario no registrado</p>
+      </div>
+
+
+      <div class="perfil_seccion perfil_horario">
+        <h3>Da un aviso</h3>
+        <form action="mailto:estebangvn061@gmail.com" method="post" enctype="text/plain">
+          <textarea class="contacto_elemento" name="mensaje" placeholder="Tu Aviso" rows="4" required></textarea>
+          <button class="boton_contact" type="submit">Enviar</button>
+      </form>
+      </div>
+      <div class="perfil_seccion perfil_horario">
+        <br>
+        <h3>Cambio de clase</h3>
+        <form class="registro_formulario" id="">
+          <input class="registro_formulario_elemento" type="text" id="email" placeholder="Grupo" required>
+          <input class="registro_formulario_elemento" type="text" id="password" placeholder="Materia" required>
+          <input class="registro_formulario_elemento" type="text" id="matricula" placeholder="Aula asignada" required>
+          <button class="registro_formulario_elemento" type="submit">Enviar</button>
+
+      </form>
+      </div>
+      </div>
+
+
